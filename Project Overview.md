@@ -10,6 +10,19 @@ Used different Python libraries such as
 - BeautifulSoup to import data into Python environment and provide the 
 trend chart for the number of complaints at monthly and daily granularity levels. 
 
+## Data description
+- Ticket #: Ticket number assigned to each complaint
+- Customer Complaint: Description of complaint
+- Date: Date of complaint
+- Time: Time of complaint
+- Received Via: Mode of communication of the complaint
+- City: Customer city
+- State: Customer state
+- Zipcode: Customer zip
+- Status: Status of complaint
+- Filing on behalf of someone
+
+
 ## Findings and Conclusion
 Used exploratory data analysis to find which complaint types are maximum i.e., around internet, network issues, or across any other domains.
 - Created a new categorical variable with value as Open and Closed. Open & Pending is to be categorized as Open and Closed & Solved is to be categorized as Closed.
